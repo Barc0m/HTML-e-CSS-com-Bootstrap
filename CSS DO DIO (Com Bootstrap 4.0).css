@@ -1,0 +1,81 @@
+
+.navbar 
+{
+    background-color:#98FB98;
+    color:black;
+}
+.quem-somos
+{
+    background-color:  #48D1CC;
+    color: #006400 ;
+}
+.margin
+{
+    padding-top:15px;
+    padding-bottom: 30px;
+}
+.parceiros
+{
+    background-color: #40E0D0 ;
+    color: #006400 ;
+
+}
+#serviços
+{
+    background-color: #7FFFD4;
+    color: #006400 ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.fff
+{
+    background-color: #E0FFFF;
+}
+.google
+{
+    width: 300px;
+    height: 300px;
+    display: inline;
+    transition: 1s all;
+}
+.google:hover
+{
+    transform: scale(0.8);
+}
+.windows
+{
+    width: 300px;
+    height: 300px;
+    display: inline;
+    transition: 1s all;
+}
+.windows:hover
+{
+    transform: scale(0.8);
+}
+.apple
+{
+    width: 300px;
+    height: 300px;
+    display: inline;
+    transition: 1s all;
+}
+.apple:hover
+{
+    transform: scale(0.8);
+}
+.rodar
+{
+    animation: rodar-animation 3s linear infinite;
+}
+@keyframes rodar-animation
+{
+    from 
+    {
+        transform: rotate(0);
+    }
+    to 
+    {
+        transform: rotate(360deg);
+    }
+}
